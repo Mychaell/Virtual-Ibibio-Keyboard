@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:keyHeight="40dp">
+    <Row>
+        <Key android:codes="0x1F600" android:keyLabel="😀" />
+        <Key android:codes="0x1F601" android:keyLabel="😁" />
+        <Key android:codes="0x1F602" android:keyLabel="😂" />
+        <Key android:codes="0x1F603" android:keyLabel="😃" />
+        <Key android:codes="0x1F604" android:keyLabel="😄" />
+        <Key android:codes="0x1F605" android:keyLabel="😅" />
+        <Key android:codes="0x1F606" android:keyLabel="😆" />
+        <Key android:codes="0x1F607" android:keyLabel="😇" />
+    </Row>
+
+    <Row>
+        <Key android:codes="0x1F608" android:keyLabel="😈" />
+        <Key android:codes="0x1F609" android:keyLabel="😉" />
+        <Key android:codes="0x1F60A" android:keyLabel="😊" />
+        <Key android:codes="0x1F60B" android:keyLabel="😋" />
+        <Key android:codes="0x1F60C" android:keyLabel="😌" />
+        <Key android:codes="0x1F60D" android:keyLabel="😍" />
+        <Key android:codes="0x1F60E" android:keyLabel="😎" />
+        <Key android:codes="0x1F60F" android:keyLabel="😏" />
+    </Row>
+
+    <Row>
+        <Key android:codes="0x1F610" android:keyLabel="😐" />
+        <Key android:codes="0x1F612" android:keyLabel="😒" />
+        <Key android:codes="0x1F613" android:keyLabel="😓" />
+        <Key android:codes="0x1F614" android:keyLabel="😔" />
+        <Key android:codes="0x1F616" android:keyLabel="😖" />
+        <Key android:codes="0x1F618" android:keyLabel="😘" />
+        <Key android:codes="0x1F61A" android:keyLabel="😚" />
+        <Key android:codes="0x1F61C" android:keyLabel="😜" />
+    </Row>
+
+    <Row>
+        <Key android:codes="0x1F61d" android:keyLabel="😝" />
+        <Key android:codes="0x1F61e" android:keyLabel="😞" />
+        <Key android:codes="0x1F620" android:keyLabel="😠" />
+        <Key android:codes="0x1F621" android:keyLabel="😡" />
+        <Key android:codes="0x1F622" android:keyLabel="😢" />
+        <Key android:codes="0x1F623" android:keyLabel="😣" />
+        <Key android:codes="0x1F624" android:keyLabel="😤" />
+        <Key android:codes="0x1F625" android:keyLabel="😥" />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-2" android:keyLabel="IGBO" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="32"
+            android:keyLabel="Space"
+            android:keyWidth="70%p"
+            android:isRepeatable="true"/>
+        <Key android:codes="10"
+            android:keyIcon="@drawable/ic_keyboard_return_black_24dp"
+            android:keyWidth="10%p" />
+        <Key android:codes="-5"
+            android:keyIcon="@drawable/ic_backspace_black_24dp"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true"/>
+    </Row>
+</Keyboard>

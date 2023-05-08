@@ -55,9 +55,11 @@
         <Key android:codes="105" android:keyLabel="i"
             android:popupKeyboard="@xml/keyboard_popup_template"
             android:popupCharacters="íìị"/>
+        <Key android:codes="7887" android:keyLabel="ị"/>
         <Key android:codes="111" android:keyLabel="o"
         android:popupKeyboard="@xml/keyboard_popup_template"
         android:popupCharacters="óòọ"/>
+        <Key android:codes="7885" android:keyLabel="ọ"/>
         <Key android:codes="112" android:keyLabel="p"
             android:keyEdgeFlags="right"/>
 
@@ -73,9 +75,13 @@
         <Key android:codes="100" android:keyLabel="d"/>
         <Key android:codes="102" android:keyLabel="f"/>
         <Key android:codes="103" android:keyLabel="g"/>
+        <Key android:codes="9986" android:keyLabel="gh" android:popupKeyboard="@xml/keyboard_popup_template" android:popupCharacters="g"/>
         <Key android:codes="104" android:keyLabel="h"/>
-        <Key android:codes="106" android:keyLabel="j"/>
         <Key android:codes="107" android:keyLabel="k"/>
+        <Key android:codes="9982" android:keyLabel="kp"
+            android:popupKeyboard="@xml/keyboard_popup_template"
+            android:popupCharacters="k" />
+        <Key android:codes="7917" android:keyLabel="ụ"/>
         <Key android:codes="108" android:keyLabel="l" android:keyEdgeFlags="right"/>
     </Row>
 
@@ -83,11 +89,10 @@
         <Key android:codes="-1"
             android:keyIcon="@drawable/ic_arrow_upward_black_24dp"
             android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z"/>
-        <Key android:codes="120" android:keyLabel="x"/>
-        <Key android:codes="99" android:keyLabel="c"/>
-        <Key android:codes="118" android:keyLabel="v"/>
+        <Key android:codes="9987" android:keyLabel="Ñw" android:popupKeyboard="@xml/keyboard_popup_template" android:popupCharacters="Ñ"/>
+        <Key android:codes="209,121" android:keyLabel="Ñy" android:popupKeyboard="@xml/keyboard_popup_template" android:popupCharacters="ñṇ"/>
         <Key android:codes="98" android:keyLabel="b"/>
+        <Key android:codes="405" android:keyLabel="Ǝ" android:popupKeyboard="@xml/keyboard_popup_template" android:popupCharacters="ɛ"/>
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
         <Key android:keyLabel=";"/>

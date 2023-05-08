@@ -47,7 +47,7 @@
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="-2" android:keyLabel="IGBO" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyLabel="IBIBIO" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
         <Key android:codes="32"
             android:keyLabel="Space"
             android:keyWidth="70%p"

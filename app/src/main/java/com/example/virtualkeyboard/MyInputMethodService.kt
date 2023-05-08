@@ -41,15 +41,13 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
         val ic: InputConnection = getCurrentInputConnection() ?: return
         when (primaryCode) {
             Keyboard.KEYCODE_DELETE -> {
-                val selectedText: CharSequence = ic.getSelectedText(0)
+                val ic: InputConnection = getCurrentInputConnection() ?: return
+                val selectedText: CharSequence? = ic.getSelectedText(0)
                 //Check if there is selection
                 if (TextUtils.isEmpty(selectedText)) {
                     //If there is a Emoji before Cursor, 2 characters have to be deleted as Emojis contain 2 characters
                     //If not, just delete 1 character before Cursor
-                    if (EmojiManager.isEmoji(
-                            getCurrentInputConnection().getTextBeforeCursor(2, 0).toString()
-                        )
-                    ) {
+                    if (EmojiManager.isEmoji(getCurrentInputConnection().getTextBeforeCursor(2, 0).toString())) {
                         ic.deleteSurroundingText(2, 0)
                     } else {
                         ic.deleteSurroundingText(1, 0)
@@ -59,6 +57,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
                     ic.commitText("", 1)
                 }
             }
+
             Keyboard.KEYCODE_SHIFT -> {
                 caps = !caps
                 //keyboard.setShifted(caps);
